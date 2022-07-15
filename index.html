@@ -12,9 +12,9 @@
 
     <title>ESTADISTICA II</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
     <!-- header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/estadistica.jpg" alt="ESTADISTICA">
@@ -24,19 +24,19 @@
             <span class="navbar-toggler-icon"></span>
             </button>
         
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">UNSCH</a>
+                <li class="nav-item">
+                <a class="nav-link" href="#main">UNSCH</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">DOCENTE</a>
+                <a class="nav-link" href="#speakers">DOCENTE</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-temas" href="#">TEMAS DEL CURSO</a>
+                    <a class="nav-link text-temas" href="#place-time">TEMAS DEL CURSO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Convierte en Estudiatne</a>
+                    <a class="nav-link" href="#conviertete en estudiante">Convierte en Estudiatne</a>
                 </li>
             </ul>
             
@@ -97,7 +97,7 @@
                           <div class="badges ">
                             <span class="badge badge-warning">Estadística</span>
                           </div>
-                          <h5 class="card-title ">Jacson ROMERO PLASENCIA</h5>
+                          <h5 class="card-title ">Jackson ROMERO PLASENCIA</h5>
                           <p class="card-text">Es un docente reconocido de la universidad, de la especialidad de Estadística.</p>
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
@@ -110,13 +110,21 @@
 
     <!-- Lugar y fecha -->
     <section id="place-time">
-        <div class="container-fluid" >
+        <div class="container-fluid mt-3 mb-3" >
             <div class="row">
-                <div class="col pl-0 pl-0">
-                    <img src="img/proporciones.jpg"  alt="Proporciones"/>
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                    <img src="img/limite.jpg"  alt="Teorema central de límite"/>
                 </div>
-                <div class="col">
-                    col2
+                <div class="col-12 col-lg-6 pt-4 pb-4">
+                    <h2>Teorema central de límites</h2>
+                    <p>
+                        El teorema central del límite es un resultado matemático que garantiza que, 
+                        si sumamos variables cualesquiera (no necesariamente normales), la variable 
+                        suma también seguirá una distribución normal (esto siempre que se cumplan algunas
+                         condiciones básicas)..
+                    </p>
+                    <a class="btn btn-outline-light" href="https://www.youtube.com/watch?v=YFXSsjJ8f5Q&ab_channel=JacksonRomero" >Conoce más</a>
+                    
                 </div>
             </div>
         </div>
@@ -125,11 +133,29 @@
     <section id="place-time">
         <div class="container-fluid mt-3 mb-3" >
             <div class="row">
-                <div class="col pl-0 pl-0">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
                     <img src="img/proporciones.jpg"  alt="Proporciones"/>
                 </div>
-                <div class="col">
-                    col2
+                <div class="col-12 col-lg-6 pt-4 pb-4">
+                    <h2>Distribuicón muestral de proporciones</h2>
+                    <p>
+                        La  necesidad  de  encontrar  la  proporción,  porcentaje  o  porciento  de
+                        una situación dada en una población es tarea frecuente en estadística. 
+                        La distribución muestral de proporciones es el conjunto de todas las muestras
+                        posibles  del  mismo  tamaño  extraídas  de  una  población,  junto  con  el 
+                        conjunto de todas las proporciones muestrales.Existen  ocasiones  en  las  
+                        cuales  no  estamos  interesados  en  la  media  de  una muestra,  sino  que 
+                        queremos  investigar  la  proporción  de  personas  con cierta preferencia, 
+                        etc,en  la  muestra.  La  distribución muestral  de proporciones es  la 
+                        adecuada para dar respuesta a estas situaciones. Esta  distribución  se  
+                        genera  de  igual  manera  quela  distribución  muestral de medias, a 
+                        excepción de que al extraer las muestras de la población secalcula el  
+                        estadístico  proporción(p=x/n  en  donde  “x”  es  el  número  de éxitosu
+                        observaciones de interés y “n”el  tamaño  de  la  muestra)  en  lugar  de 
+                        la  media de cada muestra que era lo que calculamos antes.
+                    </p>
+                    <a class="btn btn-outline-light" href="https://edoc.tips/download/distribucian-muestral-de-proporciones_pdf" >Conoce más</a>
+                    
                 </div>
             </div>
         </div>
@@ -138,29 +164,75 @@
     <section id="place-time">
         <div class="container-fluid mt-3 mb-3" >
             <div class="row">
-                <div class="col pl-0 pl-0">
-                    <img src="img/proporciones.jpg"  alt="Proporciones"/>
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                    <img src="img/medias.jpg"  alt="Muestral de medias"/>
                 </div>
-                <div class="col">
-                    col2
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="place-time">
-        <div class="container-fluid mt-3 mb-3" >
-            <div class="row">
-                <div class="col pl-0 pl-0">
-                    <img src="img/proporciones.jpg"  alt="Proporciones"/>
-                </div>
-                <div class="col">
-                    col2
+                <div class="col-12 col-lg-6 pt-4 pb-4">
+                    <h2>Distribuicón muestral de medias</h2>
+                    <p>
+                        Si recordamos a la distribución normal, esta es una distribución continua, 
+                        en forma de campana en donde la media, la mediana y la moda tienen un mismo
+                        valor y es simétrica.Con esta distribución podíamos calcular la probabilidad 
+                        de algún evento relacionado con la variable aleatoria, mediante la siguiente 
+                        fórmula: z=(x-u)/pi
+                        En donde z es una variable estandarizada con media igual a cero y varianza igual
+                         a uno. Con esta fórmula se pueden a hacer los cálculos de probabilidad para
+                          cualquier ejercicio, utilizando la tabla de la distribución z.
+                    </p>
+                    <a class="btn btn-outline-light" href="https://www.youtube.com/watch?v=2_agnsFrp-I&ab_channel=AlyCastillo" >Conoce más</a>
+                    
                 </div>
             </div>
         </div>
     </section>
     <!-- Lugar y fecha -->
+
+    <!-- Estudiante -->
+    <section id="conviertete en estudiante" clas="pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col text-uppercase text-center">
+                    <small >Convierte en un</small>
+                    <h2>ESTUDIANTE</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-uppercase text-center">
+                    Anótate como un estudiante del curso <abbr data-toggle="tooltip" title="calculo de probabilidades">estadistica</abbr>.
+                    Cuéntanos, de que tema quieres saber más.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Nombres">
+                          </div>
+                          <div class="form-group col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Apellidos">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <textarea name="text" class="form-control form-control-lg" placeholder="Sobre que tema quieres saber?"></textarea>
+                                <small class="form-text text-muted">
+                                    Recuerda incluir un tema para tu aprendizaje.
+                                </small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <button type="button" class="btn btn-estudiante btn-block">Enviar</button>
+                            </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Estudiante -->
+
  
     <!-- footer -->
     <footer id="footer" class="pb-4 pt-4">
@@ -194,5 +266,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
   </body>
 </html>
